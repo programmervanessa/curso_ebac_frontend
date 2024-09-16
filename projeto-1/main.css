@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgba(215, 99, 11, 0.659);
+    color: chocolate;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 100px;
+    font-size: 25px;
+    font-family: 'Bungee Spice', cursive;
+}    
+
+header nav li a {
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container h1,
+.container h2 {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    align-items: center;
+    font-family: 'Bungee Spice', cursive;
+    font-size: 30px;
+}
+
+section p .texto {
+    font-size: large;
+}
+
+.section {
+    margin-right: 30px;
+    display: inline;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}    
+
+.foto-do-thor {
+    width: 280px;
+    height: 300px;
+}
+
+.sobre-nos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+    margin-bottom: 18px;    
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+header .container img {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    width: 300px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;    
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #70747fd9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #243e87d9;
+}
+
+section .loja-itens li {
+    display: inline;
+    justify-content: space-between;
+
+}
+
+.produtos-itens {
+    display: inline;
+}
+
+.localizacao {
+    margin-bottom: 18px;
+}
+
+footer {
+    background-color: rgba(215, 99, 11, 0.659);
+    padding: 50px 0;
+}
+
